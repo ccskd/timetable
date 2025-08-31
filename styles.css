@@ -80,6 +80,8 @@ body{
 }
 html{
     overflow-x: hidden;
+    overflow: auto;
 }
+
 
 
