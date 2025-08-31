@@ -62,6 +62,9 @@ h1{
 body{
     background-image: url('backgorund.png');
     background-size: cover;
+    overflow-x: hidden;
+    height: 110%;
+    position: fixed;
 }
 #show{
     color:white;
@@ -76,4 +79,5 @@ body{
     height: 50px;
     padding-top: 50px;
     z-index: 100;
+
 }
