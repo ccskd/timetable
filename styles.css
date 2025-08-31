@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "punk";
+    src: url(chicago_punk/Chicago\ Punk.ttf);
+}
+@font-face {
+    font-family: "arsle";
+    src: url(arsle_gothic/ArsleGothic.ttf);
+}
+td{
+    font-size: 14px;
+}
+* {
+    font-family: "arsle";
+}
+.course{
+    font-size: 12px;
+    transition: 0.2s;
+    border: none;
+}
+.course:hover{
+    transform: scale(1.1);
+}
+.INTC{
+    background-color: rgb(160, 225, 238);
+}
+.AILT{
+    background-color: rgb(241, 229, 197);
+}
+.CC{
+    background-color: rgb(163, 157, 192);
+}
+table{
+    border-spacing: 0;
+}
+h1{
+    font-family: "punk";
+    letter-spacing: 2px;
+    font-size: 55px;
+    padding: 1em;
+}
+.weekday td{
+    border-bottom: 1px solid;
+}
+#table{
+    width: 60%;
+    background-image: url('table.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 5% 17%;
+}
+#tableBG{
+    margin: -6%;
+    margin-bottom: 5%;
+    border-bottom: 2px black dashed;
+    width: 120%;
+    padding: 2em 0em;
+    background-image: url('tablebg.png');
+    background-size: cover;
+    z-index: -1;
+}
+body{
+    background-image: url('backgorund.png');
+    background-size: cover;
+}
+#show{
+    color:white;
+    padding: 20px;
+    background: linear-gradient(to right, black, rgba(0,0,0,0));
+}
+#title{
+    background-image: url('white-ripped-paper-png.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 50px;
+    padding-top: 50px;
+    z-index: 100;
+}

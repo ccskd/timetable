@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Timetable 2025</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script> 
+    </head>
+    <body style="padding: 1% 4%;">
+        <center><h1 id="title" style="color: rgb(0, 0, 0);">Timetable 2025</h1></center>
+        <div id="tableBG" width="100%">
+        <div id="table" width="100%">
+            <center><table border="1" border-spacing="0" cellspacing="5" style="text-align: center;">
+                <tr class="weekday">
+                    <td></td>
+                    <td>SUN</td>
+                    <td>MON</td>
+                    <td>TUE</td>
+                    <td>WED</td>
+                    <td>THU</td>
+                    <td>FRI</td>
+                    <td>SAT</td>
+                </tr>
+                <tr>
+                    <td>08:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>09:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="course AILT" rowspan="2" onclick="mapShow('cpd')">
+                        AILT 1001<br>
+                        0900 - 0950<br>
+                        Centennial CPD-LG.01
+                    </td>
+                    <td class="INTC course" rowspan="3" onclick="mapShow('kklg')">
+                        INTC 1001<br>
+                        0900 - 1150<br>
+                        KKLG106
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td></td>
+                    <td></td>
+                    <td class="INTC course" rowspan="3" onclick="mapShow('kklg')">
+                        INTC 1201<br>
+                        1000 - 1250<br>
+                        KKLG106
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="course CC" onclick="mapShow('wlgh')">
+                        CCAI 9025<br>
+                        1300 - 1450<br>
+                        Graduate House WLGH
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td></td>
+                    <td class="INTC course" rowspan="3" onclick="mapShow('kklg')">
+                        INTC 1103<br>
+                        1400 - 1650<br>
+                        KKLG106
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>15:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>17:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>18:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table></center>
+        </div></div>
+        <p style="font-size: 20px;" id="show">See map:</p>
+        <img src="hku_map.jpg" width="100%">
+    </body>
+</html>
