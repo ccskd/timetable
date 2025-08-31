@@ -53,10 +53,9 @@ h1{
     margin: -6%;
     margin-bottom: 5%;
     border-bottom: 2px black dashed;
-    width: 120%;
     padding: 2em 0em;
     background-image: url('tablebg.png');
-    background-size: cover;
+    background-size: 100%;
     z-index: -1;
 }
 body{
@@ -82,4 +81,5 @@ body{
 html{
     overflow-x: hidden;
 }
+
 
