@@ -88,4 +88,9 @@ html{
     overflow-x: hidden;
     padding: 0%;
 }
-
+#pfp{
+    width: 20%;
+    border-radius: 100px;
+    filter: drop-shadow(8px 7px 0 black);
+    margin-bottom: -180px;
+}
