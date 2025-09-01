@@ -21,13 +21,15 @@ td{
     transform: scale(1.1);
 }
 .INTC{
-    background-color: rgb(160, 225, 238);
+    background: linear-gradient(#c62525, #441818);
+    color: white;
 }
 .AILT{
-    background-color: rgb(241, 229, 197);
+    background-color: rgb(45, 51, 78);
+    color: white;
 }
 .CC{
-    background-color: rgb(163, 157, 192);
+    background-color: rgb(230, 212, 157);
 }
 table{
     border-spacing: 0;
