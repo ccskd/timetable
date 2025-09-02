@@ -10,8 +10,9 @@ function mapShow(venue){
         show.innerText = 'See map: 4b';
     }
     else{
-        show.innerText = 'See map: 10'
+        show.innerText = 'See map: 10';
     }
 
 
 }
+
