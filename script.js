@@ -9,5 +9,9 @@ function mapShow(venue){
     else if (venue == 'wlgh') {
         show.innerText = 'See map: 4b';
     }
+    else{
+        show.innerText = 'See map: 10'
+    }
+
 
 }
