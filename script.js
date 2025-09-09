@@ -9,10 +9,11 @@ function mapShow(venue){
     else if (venue == 'wlgh') {
         show.innerText = 'See map: 4b';
     }
-    else{
+    else if (venue=="mwt"){
         show.innerText = 'See map: 10';
     }
-
+    else if (venue=="mb"){
+        show.innerText = 'See map: 27';
+    }
 
 }
-
